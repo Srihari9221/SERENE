@@ -1,0 +1,79 @@
+# ==============================
+# Environment variables & secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Model files
+# Keep actual model weights out of Git
+# ==============================
+*.pt
+*.pth
+*.h5
+*.onnx
+*.safetensors
+*.bin
+
+# ==============================
+# Vector databases & generated data
+# ==============================
+Knowledge_Base/
+chroma_db/
+vector_db/
+*.sqlite3
+*.db
+
+# ==============================
+# Audio & temporary media
+# ==============================
+*.wav
+*.mp3
+*.mp4
+*.tmp
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDE & editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
